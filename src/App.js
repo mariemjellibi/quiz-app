@@ -33,8 +33,8 @@ const App = () => {
       <div className="w-full sm:max-w-md md:max-w-lg p-6 bg-white rounded-lg shadow-lg opacity-90">
         {!startQuiz && !quizCompleted ? (
           <div className="text-center">
-            <h1 className="text-2xl sm:text-3xl font-bold mb-4">React Quiz App</h1>
-            <p className="text-lg sm:text-xl mb-6">Test your knowledge!</p>
+            <h1 className="text-2xl sm:text-3xl font-bold mb-4">QUIZ</h1>
+            <p className="text-lg sm:text-xl mb-6">One thousand nights and a night !</p>
             <button
               onClick={startHandler}
               className="bg-blue-500 text-white p-3 rounded-full w-full hover:bg-blue-600 transition duration-300"
